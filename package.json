@@ -1,0 +1,24 @@
+{
+    "name": "neocoder",
+    "displayName": "neocoder",
+    "description": "This is a dark theme",
+    "version": "0.0.1",
+    "author": "Sudip Mondal",
+    "publisher": "SudipMondal",
+    "icon": "./icon.jpg",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NeoCoder",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NeoCoder-color-theme.json"
+            }
+        ]
+    }
+}
